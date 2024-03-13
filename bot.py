@@ -17,7 +17,7 @@ def menu(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text=text_menu)
 
 def puisi(update: Update, context: CallbackContext):
-    text_puisi = "Aku lalai di hari pagi, Beta lelah di masa muda, Kini hidup meracuni hati, Miskin ilmu miskin harta. 😔"
+    text_puisi = "Aku lalai di hari pagi. Beta lelah di masa muda. Kini hidup meracuni hati. Miskin ilmu miskin harta. 😔"
     context.bot.send_message(chat_id=update.effective_chat.id, text=text_puisi)
 
 def pantun(update: Update, context: CallbackContext):
